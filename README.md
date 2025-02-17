@@ -3,7 +3,6 @@
 This project implements the **Command Query Responsibility Segregation (CQRS) pattern** using **Spring Boot**, **MongoDB**, **Kafka**, and **Elasticsearch**. The architecture is designed to handle high-performance reads and writes separately while ensuring data consistency.
 
 ## 📌 Technologies Used
-- **Java 17** (or latest LTS)
 - **Spring Boot** (Spring Data MongoDB, Spring Kafka, Spring Web)
 - **MongoDB** (Transactional Database)
 - **Apache Kafka** (Event Streaming)
