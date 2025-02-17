@@ -1,4 +1,3 @@
-```markdown
 # CQRS Microservice Architecture with Spring Boot, MongoDB, Kafka, and Elasticsearch
 
 This project implements the **Command Query Responsibility Segregation (CQRS) pattern** using **Spring Boot**, **MongoDB**, **Kafka**, and **Elasticsearch**. The architecture is designed to handle high-performance reads and writes separately while ensuring data consistency.
