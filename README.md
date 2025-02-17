@@ -27,7 +27,3 @@ This project implements the **Command Query Responsibility Segregation (CQRS) pa
    - It processes and indexes data into **Elasticsearch**.
    - Clients query the **Query Service**, which fetches data from Elasticsearch for fast retrieval.
 
-
-## 📩 Contact
-For any inquiries, feel free to reach out via GitHub Issues.
-```
