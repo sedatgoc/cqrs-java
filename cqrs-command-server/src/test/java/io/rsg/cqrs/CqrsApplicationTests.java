@@ -25,9 +25,6 @@ class CqrsApplicationTests {
     @Autowired
     private MockMvc mvc;
 
-    @Autowired
-    private OrderRepository orderRepository;
-
     ObjectMapper objectMapper = new ObjectMapper();
 
     @Test
@@ -42,7 +39,7 @@ class CqrsApplicationTests {
                         .content(orderContent))
                 .andExpect(status().isOk()).andReturn();
 
-        Assertions.assertEquals(objectMapper.writeValueAsString(responseDTO),result.getResponse().getContentAsString());
+        Assertions.assertEquals(result.getResponse().getContentAsString(),objectMapper.writeValueAsString(responseDTO));
 
     }
 

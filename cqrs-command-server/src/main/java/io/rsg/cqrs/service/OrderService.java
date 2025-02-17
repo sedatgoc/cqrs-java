@@ -19,7 +19,6 @@ public class OrderService {
     @Transactional
     public OrderResponseDTO addOrder(Order order){
         try{
-            System.out.println(order.getStatus());
             orderRepository.save(order);
         }catch (Exception e){
             return new OrderResponseDTO(e.getMessage(),false);
